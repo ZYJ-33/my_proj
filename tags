@@ -1,0 +1,734 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/zyj/aot/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AOT_File	aot_class.cpp	/^AOT_File::AOT_File(FILE* f)$/;"	f	class:AOT_File
+AOT_File	aot_class.h	/^class AOT_File$/;"	c
+AOT_Header	aot1.h	/^typedef struct AOT_Header$/;"	s
+AOT_Header	aot1.h	/^} AOT_Header;$/;"	t	typeref:struct:AOT_Header
+AOT_SegInfo	aot1.h	/^typedef struct AOT_SegInfo$/;"	s
+AOT_SegInfo	aot1.h	/^} AOT_SegInfo;$/;"	t	typeref:struct:AOT_SegInfo
+AOT_Segment	aot1.h	/^typedef struct AOT_Segment$/;"	s
+AOT_Segment	aot1.h	/^} AOT_Segment;$/;"	t	typeref:struct:AOT_Segment
+AOT_TB	aot1.h	/^typedef struct AOT_TB$/;"	s
+AOT_TB	aot1.h	/^} AOT_TB;$/;"	t	typeref:struct:AOT_TB
+AOT_VERSION	aot.h	/^#define AOT_VERSION /;"	d
+AOT_rel	aot1.h	/^typedef struct AOT_rel$/;"	s
+AOT_rel	aot1.h	/^} AOT_rel;$/;"	t	typeref:struct:AOT_rel
+B_EPILOGUE	aot.h	/^    B_EPILOGUE,$/;"	e	enum:aot_rel_kind
+B_EPILOGUE	aot1.h	/^    B_EPILOGUE,$/;"	e	enum:aot_rel_kind
+B_NATIVE_JMP_GLUE2	aot.h	/^    B_NATIVE_JMP_GLUE2,$/;"	e	enum:aot_rel_kind
+B_NATIVE_JMP_GLUE2	aot1.h	/^    B_NATIVE_JMP_GLUE2,$/;"	e	enum:aot_rel_kind
+B_NATIVE_ROTATE_FPU_BY	aot.h	/^    B_NATIVE_ROTATE_FPU_BY,$/;"	e	enum:aot_rel_kind
+B_NATIVE_TO_BT_RET_0	aot.h	/^    B_NATIVE_TO_BT_RET_0,$/;"	e	enum:aot_rel_kind
+B_PROLOGUE	aot.h	/^    B_PROLOGUE,$/;"	e	enum:aot_rel_kind
+B_PROLOGUE	aot1.h	/^    B_PROLOGUE,$/;"	e	enum:aot_rel_kind
+DisassmblePrinterVistor	aot_class.h	/^class DisassmblePrinterVistor: TB_Vistor$/;"	c
+DisassmbleVistor	aot_class.h	/^class DisassmbleVistor: TB_Vistor$/;"	c
+LOAD_CALL_TARGET	aot.h	/^    LOAD_CALL_TARGET,$/;"	e	enum:aot_rel_kind
+LOAD_CALL_TARGET	aot1.h	/^    LOAD_CALL_TARGET,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_BEGIN	aot.h	/^    LOAD_HELPER_BEGIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_BEGIN	aot1.h	/^    LOAD_HELPER_BEGIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CONVERT_FPREGS_64_TO_X80	aot.h	/^    LOAD_HELPER_CONVERT_FPREGS_64_TO_X80,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CONVERT_FPREGS_64_TO_X80	aot1.h	/^    LOAD_HELPER_CONVERT_FPREGS_64_TO_X80,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CONVERT_FPREGS_X80_TO_64	aot.h	/^    LOAD_HELPER_CONVERT_FPREGS_X80_TO_64,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CONVERT_FPREGS_X80_TO_64	aot1.h	/^    LOAD_HELPER_CONVERT_FPREGS_X80_TO_64,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CPUID	aot.h	/^    LOAD_HELPER_CPUID,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_CPUID	aot1.h	/^    LOAD_HELPER_CPUID,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_END	aot.h	/^    LOAD_HELPER_END,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_END	aot1.h	/^    LOAD_HELPER_END,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_F2XM1	aot.h	/^    LOAD_HELPER_F2XM1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_F2XM1	aot1.h	/^    LOAD_HELPER_F2XM1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FBLD_ST0	aot.h	/^    LOAD_HELPER_FBLD_ST0,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FBLD_ST0	aot1.h	/^    LOAD_HELPER_FBLD_ST0,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FBST_ST0	aot.h	/^    LOAD_HELPER_FBST_ST0,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FBST_ST0	aot1.h	/^    LOAD_HELPER_FBST_ST0,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FCOS	aot1.h	/^    LOAD_HELPER_FCOS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPATAN	aot.h	/^    LOAD_HELPER_FPATAN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPATAN	aot1.h	/^    LOAD_HELPER_FPATAN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPREM	aot.h	/^    LOAD_HELPER_FPREM,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPREM	aot1.h	/^    LOAD_HELPER_FPREM,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPREM1	aot.h	/^    LOAD_HELPER_FPREM1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPREM1	aot1.h	/^    LOAD_HELPER_FPREM1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPTAN	aot.h	/^    LOAD_HELPER_FPTAN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FPTAN	aot1.h	/^    LOAD_HELPER_FPTAN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FRNDINT	aot.h	/^    LOAD_HELPER_FRNDINT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FRNDINT	aot1.h	/^    LOAD_HELPER_FRNDINT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FSIN	aot.h	/^    LOAD_HELPER_FSIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FSIN	aot1.h	/^    LOAD_HELPER_FSIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FSINCOS	aot.h	/^    LOAD_HELPER_FSINCOS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FSINCOS	aot1.h	/^    LOAD_HELPER_FSINCOS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXRSTOR	aot.h	/^    LOAD_HELPER_FXRSTOR,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXRSTOR	aot1.h	/^    LOAD_HELPER_FXRSTOR,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXSAVE	aot.h	/^    LOAD_HELPER_FXSAVE,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXSAVE	aot1.h	/^    LOAD_HELPER_FXSAVE,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXTRACT	aot.h	/^    LOAD_HELPER_FXTRACT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FXTRACT	aot1.h	/^    LOAD_HELPER_FXTRACT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FYL2X	aot.h	/^    LOAD_HELPER_FYL2X,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FYL2X	aot1.h	/^    LOAD_HELPER_FYL2X,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FYL2XP1	aot.h	/^    LOAD_HELPER_FYL2XP1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_FYL2XP1	aot1.h	/^    LOAD_HELPER_FYL2XP1,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_RAISE_INT	aot.h	/^    LOAD_HELPER_RAISE_INT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_RAISE_INT	aot1.h	/^    LOAD_HELPER_RAISE_INT,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_RAISE_SYSCALL	aot.h	/^    LOAD_HELPER_RAISE_SYSCALL,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_RAISE_SYSCALL	aot1.h	/^    LOAD_HELPER_RAISE_SYSCALL,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_TRACE_SESSION_BEGIN	aot.h	/^    LOAD_HELPER_TRACE_SESSION_BEGIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_TRACE_SESSION_BEGIN	aot1.h	/^    LOAD_HELPER_TRACE_SESSION_BEGIN,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_UPDATE_FP_STATUS	aot.h	/^    LOAD_HELPER_UPDATE_FP_STATUS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_UPDATE_FP_STATUS	aot1.h	/^    LOAD_HELPER_UPDATE_FP_STATUS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_UPDATE_MXCSR_STATUS	aot.h	/^    LOAD_HELPER_UPDATE_MXCSR_STATUS,$/;"	e	enum:aot_rel_kind
+LOAD_HELPER_UPDATE_MXCSR_STATUS	aot1.h	/^    LOAD_HELPER_UPDATE_MXCSR_STATUS,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_ATAN2	aot.h	/^    LOAD_HOST_ATAN2,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_ATAN2	aot1.h	/^    LOAD_HOST_ATAN2,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_COS	aot.h	/^    LOAD_HOST_COS,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_COS	aot1.h	/^    LOAD_HOST_COS,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LATLOCK	aot.h	/^    LOAD_HOST_LATLOCK,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LATLOCK	aot1.h	/^    LOAD_HOST_LATLOCK,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LOG2	aot.h	/^    LOAD_HOST_LOG2,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LOG2	aot1.h	/^    LOAD_HOST_LOG2,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LOGB	aot.h	/^    LOAD_HOST_LOGB,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_LOGB	aot1.h	/^    LOAD_HOST_LOGB,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_PFTABLE	aot.h	/^    LOAD_HOST_PFTABLE,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_PFTABLE	aot1.h	/^    LOAD_HOST_PFTABLE,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_POW	aot.h	/^    LOAD_HOST_POW,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_POW	aot1.h	/^    LOAD_HOST_POW,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_RAISE_EX	aot1.h	/^    LOAD_HOST_RAISE_EX,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_SIN	aot.h	/^    LOAD_HOST_SIN,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_SIN	aot1.h	/^    LOAD_HOST_SIN,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_SINCOS	aot.h	/^    LOAD_HOST_SINCOS,$/;"	e	enum:aot_rel_kind
+LOAD_HOST_SINCOS	aot1.h	/^    LOAD_HOST_SINCOS,$/;"	e	enum:aot_rel_kind
+LOAD_RIP_OFF	aot.h	/^    LOAD_RIP_OFF,$/;"	e	enum:aot_rel_kind
+LOAD_RIP_OFF	aot1.h	/^    LOAD_RIP_OFF,$/;"	e	enum:aot_rel_kind
+LOAD_SYSCALL_OPTIMIZE_CONFIRM	aot.h	/^    LOAD_SYSCALL_OPTIMIZE_CONFIRM,$/;"	e	enum:aot_rel_kind
+LOAD_SYSCALL_OPTIMIZE_CONFIRM	aot1.h	/^    LOAD_SYSCALL_OPTIMIZE_CONFIRM,$/;"	e	enum:aot_rel_kind
+LOAD_TB_ADDR	aot.h	/^    LOAD_TB_ADDR,$/;"	e	enum:aot_rel_kind
+LOAD_TB_ADDR	aot1.h	/^    LOAD_TB_ADDR,$/;"	e	enum:aot_rel_kind
+LOAD_TUNNEL_ADDR_BEGIN	aot.h	/^    LOAD_TUNNEL_ADDR_BEGIN,$/;"	e	enum:aot_rel_kind
+LOAD_TUNNEL_ADDR_BEGIN	aot1.h	/^    LOAD_TUNNEL_ADDR_BEGIN,$/;"	e	enum:aot_rel_kind
+LoongArchInsInfo	disassmbler.h	/^} LoongArchInsInfo;$/;"	t	typeref:struct:__anon1b0d36540208
+LoongArchOpc	disassmbler.h	/^} LoongArchOpc;$/;"	t	typeref:enum:__anon1b0d36540103
+OPC_ADDI_D	disassmbler.h	/^    OPC_ADDI_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ADDI_W	disassmbler.h	/^    OPC_ADDI_W,$/;"	e	enum:__anon1b0d36540103
+OPC_ADDU16I_D	disassmbler.h	/^    OPC_ADDU16I_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ADD_D	disassmbler.h	/^    OPC_ADD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ADD_W	disassmbler.h	/^    OPC_ADD_W,$/;"	e	enum:__anon1b0d36540103
+OPC_ALSL_D	disassmbler.h	/^    OPC_ALSL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ALSL_W	disassmbler.h	/^    OPC_ALSL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_ALSL_WU	disassmbler.h	/^    OPC_ALSL_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMADD_D	disassmbler.h	/^    OPC_AMADD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMADD_DB_D	disassmbler.h	/^    OPC_AMADD_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMADD_DB_W	disassmbler.h	/^    OPC_AMADD_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMADD_W	disassmbler.h	/^    OPC_AMADD_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMAND_D	disassmbler.h	/^    OPC_AMAND_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMAND_DB_D	disassmbler.h	/^    OPC_AMAND_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMAND_DB_W	disassmbler.h	/^    OPC_AMAND_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMAND_W	disassmbler.h	/^    OPC_AMAND_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_D	disassmbler.h	/^    OPC_AMMAX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_DB_D	disassmbler.h	/^    OPC_AMMAX_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_DB_DU	disassmbler.h	/^    OPC_AMMAX_DB_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_DB_W	disassmbler.h	/^    OPC_AMMAX_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_DB_WU	disassmbler.h	/^    OPC_AMMAX_DB_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_DU	disassmbler.h	/^    OPC_AMMAX_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_W	disassmbler.h	/^    OPC_AMMAX_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMAX_WU	disassmbler.h	/^    OPC_AMMAX_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_D	disassmbler.h	/^    OPC_AMMIN_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_DB_D	disassmbler.h	/^    OPC_AMMIN_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_DB_DU	disassmbler.h	/^    OPC_AMMIN_DB_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_DB_W	disassmbler.h	/^    OPC_AMMIN_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_DB_WU	disassmbler.h	/^    OPC_AMMIN_DB_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_DU	disassmbler.h	/^    OPC_AMMIN_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_W	disassmbler.h	/^    OPC_AMMIN_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMMIN_WU	disassmbler.h	/^    OPC_AMMIN_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_AMOR_D	disassmbler.h	/^    OPC_AMOR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMOR_DB_D	disassmbler.h	/^    OPC_AMOR_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMOR_DB_W	disassmbler.h	/^    OPC_AMOR_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMOR_W	disassmbler.h	/^    OPC_AMOR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMSWAP_D	disassmbler.h	/^    OPC_AMSWAP_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMSWAP_DB_D	disassmbler.h	/^    OPC_AMSWAP_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMSWAP_DB_W	disassmbler.h	/^    OPC_AMSWAP_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMSWAP_W	disassmbler.h	/^    OPC_AMSWAP_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMXOR_D	disassmbler.h	/^    OPC_AMXOR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMXOR_DB_D	disassmbler.h	/^    OPC_AMXOR_DB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_AMXOR_DB_W	disassmbler.h	/^    OPC_AMXOR_DB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AMXOR_W	disassmbler.h	/^    OPC_AMXOR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_AND	disassmbler.h	/^    OPC_AND,$/;"	e	enum:__anon1b0d36540103
+OPC_ANDI	disassmbler.h	/^    OPC_ANDI,$/;"	e	enum:__anon1b0d36540103
+OPC_ANDN	disassmbler.h	/^    OPC_ANDN,$/;"	e	enum:__anon1b0d36540103
+OPC_ASRTGT_D	disassmbler.h	/^    OPC_ASRTGT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ASRTLE_D	disassmbler.h	/^    OPC_ASRTLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_B	disassmbler.h	/^    OPC_B,$/;"	e	enum:__anon1b0d36540103
+OPC_BCEQZ	disassmbler.h	/^    OPC_BCEQZ,$/;"	e	enum:__anon1b0d36540103
+OPC_BCNEZ	disassmbler.h	/^    OPC_BCNEZ,$/;"	e	enum:__anon1b0d36540103
+OPC_BEQ	disassmbler.h	/^    OPC_BEQ,$/;"	e	enum:__anon1b0d36540103
+OPC_BEQZ	disassmbler.h	/^    OPC_BEQZ,$/;"	e	enum:__anon1b0d36540103
+OPC_BGE	disassmbler.h	/^    OPC_BGE,$/;"	e	enum:__anon1b0d36540103
+OPC_BGEU	disassmbler.h	/^    OPC_BGEU,$/;"	e	enum:__anon1b0d36540103
+OPC_BITREV_4B	disassmbler.h	/^    OPC_BITREV_4B,$/;"	e	enum:__anon1b0d36540103
+OPC_BITREV_8B	disassmbler.h	/^    OPC_BITREV_8B,$/;"	e	enum:__anon1b0d36540103
+OPC_BITREV_D	disassmbler.h	/^    OPC_BITREV_D,$/;"	e	enum:__anon1b0d36540103
+OPC_BITREV_W	disassmbler.h	/^    OPC_BITREV_W,$/;"	e	enum:__anon1b0d36540103
+OPC_BL	disassmbler.h	/^    OPC_BL,$/;"	e	enum:__anon1b0d36540103
+OPC_BLT	disassmbler.h	/^    OPC_BLT,$/;"	e	enum:__anon1b0d36540103
+OPC_BLTU	disassmbler.h	/^    OPC_BLTU,$/;"	e	enum:__anon1b0d36540103
+OPC_BNE	disassmbler.h	/^    OPC_BNE,$/;"	e	enum:__anon1b0d36540103
+OPC_BNEZ	disassmbler.h	/^    OPC_BNEZ,$/;"	e	enum:__anon1b0d36540103
+OPC_BREAK	disassmbler.h	/^    OPC_BREAK,$/;"	e	enum:__anon1b0d36540103
+OPC_BSTRINS_D	disassmbler.h	/^    OPC_BSTRINS_D,$/;"	e	enum:__anon1b0d36540103
+OPC_BSTRINS_W	disassmbler.h	/^    OPC_BSTRINS_W,$/;"	e	enum:__anon1b0d36540103
+OPC_BSTRPICK_D	disassmbler.h	/^    OPC_BSTRPICK_D,$/;"	e	enum:__anon1b0d36540103
+OPC_BSTRPICK_W	disassmbler.h	/^    OPC_BSTRPICK_W,$/;"	e	enum:__anon1b0d36540103
+OPC_BYTEPICK_D	disassmbler.h	/^    OPC_BYTEPICK_D,$/;"	e	enum:__anon1b0d36540103
+OPC_BYTEPICK_W	disassmbler.h	/^    OPC_BYTEPICK_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CACOP	disassmbler.h	/^    OPC_CACOP,$/;"	e	enum:__anon1b0d36540103
+OPC_CLO_D	disassmbler.h	/^    OPC_CLO_D,$/;"	e	enum:__anon1b0d36540103
+OPC_CLO_W	disassmbler.h	/^    OPC_CLO_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CLZ_D	disassmbler.h	/^    OPC_CLZ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_CLZ_W	disassmbler.h	/^    OPC_CLZ_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CPUCFG	disassmbler.h	/^    OPC_CPUCFG,$/;"	e	enum:__anon1b0d36540103
+OPC_CRCC_W_B_W	disassmbler.h	/^    OPC_CRCC_W_B_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRCC_W_D_W	disassmbler.h	/^    OPC_CRCC_W_D_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRCC_W_H_W	disassmbler.h	/^    OPC_CRCC_W_H_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRCC_W_W_W	disassmbler.h	/^    OPC_CRCC_W_W_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRC_W_B_W	disassmbler.h	/^    OPC_CRC_W_B_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRC_W_D_W	disassmbler.h	/^    OPC_CRC_W_D_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRC_W_H_W	disassmbler.h	/^    OPC_CRC_W_H_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CRC_W_W_W	disassmbler.h	/^    OPC_CRC_W_W_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CSRRD	disassmbler.h	/^    OPC_CSRRD,$/;"	e	enum:__anon1b0d36540103
+OPC_CSRWR	disassmbler.h	/^    OPC_CSRWR,$/;"	e	enum:__anon1b0d36540103
+OPC_CSRXCHG	disassmbler.h	/^    OPC_CSRXCHG,$/;"	e	enum:__anon1b0d36540103
+OPC_CTO_D	disassmbler.h	/^    OPC_CTO_D,$/;"	e	enum:__anon1b0d36540103
+OPC_CTO_W	disassmbler.h	/^    OPC_CTO_W,$/;"	e	enum:__anon1b0d36540103
+OPC_CTZ_D	disassmbler.h	/^    OPC_CTZ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_CTZ_W	disassmbler.h	/^    OPC_CTZ_W,$/;"	e	enum:__anon1b0d36540103
+OPC_DBAR	disassmbler.h	/^    OPC_DBAR,$/;"	e	enum:__anon1b0d36540103
+OPC_DBCL	disassmbler.h	/^    OPC_DBCL,$/;"	e	enum:__anon1b0d36540103
+OPC_DIV_D	disassmbler.h	/^    OPC_DIV_D,$/;"	e	enum:__anon1b0d36540103
+OPC_DIV_DU	disassmbler.h	/^    OPC_DIV_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_DIV_W	disassmbler.h	/^    OPC_DIV_W,$/;"	e	enum:__anon1b0d36540103
+OPC_DIV_WU	disassmbler.h	/^    OPC_DIV_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_ERTN	disassmbler.h	/^    OPC_ERTN,$/;"	e	enum:__anon1b0d36540103
+OPC_EXT_W_B	disassmbler.h	/^    OPC_EXT_W_B,$/;"	e	enum:__anon1b0d36540103
+OPC_EXT_W_H	disassmbler.h	/^    OPC_EXT_W_H,$/;"	e	enum:__anon1b0d36540103
+OPC_FABS_D	disassmbler.h	/^    OPC_FABS_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FABS_S	disassmbler.h	/^    OPC_FABS_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FADD_D	disassmbler.h	/^    OPC_FADD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FADD_S	disassmbler.h	/^    OPC_FADD_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCLASS_D	disassmbler.h	/^    OPC_FCLASS_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCLASS_S	disassmbler.h	/^    OPC_FCLASS_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CAF_D	disassmbler.h	/^    OPC_FCMP_CAF_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CAF_S	disassmbler.h	/^    OPC_FCMP_CAF_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CEQ_D	disassmbler.h	/^    OPC_FCMP_CEQ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CEQ_S	disassmbler.h	/^    OPC_FCMP_CEQ_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CLE_D	disassmbler.h	/^    OPC_FCMP_CLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CLE_S	disassmbler.h	/^    OPC_FCMP_CLE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CLT_D	disassmbler.h	/^    OPC_FCMP_CLT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CLT_S	disassmbler.h	/^    OPC_FCMP_CLT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CNE_D	disassmbler.h	/^    OPC_FCMP_CNE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CNE_S	disassmbler.h	/^    OPC_FCMP_CNE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_COR_D	disassmbler.h	/^    OPC_FCMP_COR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_COR_S	disassmbler.h	/^    OPC_FCMP_COR_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUEQ_D	disassmbler.h	/^    OPC_FCMP_CUEQ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUEQ_S	disassmbler.h	/^    OPC_FCMP_CUEQ_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CULE_D	disassmbler.h	/^    OPC_FCMP_CULE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CULE_S	disassmbler.h	/^    OPC_FCMP_CULE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CULT_D	disassmbler.h	/^    OPC_FCMP_CULT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CULT_S	disassmbler.h	/^    OPC_FCMP_CULT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUNE_D	disassmbler.h	/^    OPC_FCMP_CUNE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUNE_S	disassmbler.h	/^    OPC_FCMP_CUNE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUN_D	disassmbler.h	/^    OPC_FCMP_CUN_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_CUN_S	disassmbler.h	/^    OPC_FCMP_CUN_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SAF_D	disassmbler.h	/^    OPC_FCMP_SAF_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SAF_S	disassmbler.h	/^    OPC_FCMP_SAF_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SEQ_D	disassmbler.h	/^    OPC_FCMP_SEQ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SEQ_S	disassmbler.h	/^    OPC_FCMP_SEQ_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SLE_D	disassmbler.h	/^    OPC_FCMP_SLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SLE_S	disassmbler.h	/^    OPC_FCMP_SLE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SNE_D	disassmbler.h	/^    OPC_FCMP_SNE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SNE_S	disassmbler.h	/^    OPC_FCMP_SNE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SOR_D	disassmbler.h	/^    OPC_FCMP_SOR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SOR_S	disassmbler.h	/^    OPC_FCMP_SOR_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_STL_D	disassmbler.h	/^    OPC_FCMP_STL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_STL_S	disassmbler.h	/^    OPC_FCMP_STL_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUEQ_D	disassmbler.h	/^    OPC_FCMP_SUEQ_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUEQ_S	disassmbler.h	/^    OPC_FCMP_SUEQ_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SULE_D	disassmbler.h	/^    OPC_FCMP_SULE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SULE_S	disassmbler.h	/^    OPC_FCMP_SULE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SULT_D	disassmbler.h	/^    OPC_FCMP_SULT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SULT_S	disassmbler.h	/^    OPC_FCMP_SULT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUNE_D	disassmbler.h	/^    OPC_FCMP_SUNE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUNE_S	disassmbler.h	/^    OPC_FCMP_SUNE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUN_D	disassmbler.h	/^    OPC_FCMP_SUN_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCMP_SUN_S	disassmbler.h	/^    OPC_FCMP_SUN_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCOPYSIGN_D	disassmbler.h	/^    OPC_FCOPYSIGN_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FCOPYSIGN_S	disassmbler.h	/^    OPC_FCOPYSIGN_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCVT_D_S	disassmbler.h	/^    OPC_FCVT_D_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FCVT_S_D	disassmbler.h	/^    OPC_FCVT_S_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FDIV_D	disassmbler.h	/^    OPC_FDIV_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FDIV_S	disassmbler.h	/^    OPC_FDIV_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FFINT_D_L	disassmbler.h	/^    OPC_FFINT_D_L,$/;"	e	enum:__anon1b0d36540103
+OPC_FFINT_D_W	disassmbler.h	/^    OPC_FFINT_D_W,$/;"	e	enum:__anon1b0d36540103
+OPC_FFINT_S_L	disassmbler.h	/^    OPC_FFINT_S_L,$/;"	e	enum:__anon1b0d36540103
+OPC_FFINT_S_W	disassmbler.h	/^    OPC_FFINT_S_W,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDGT_D	disassmbler.h	/^    OPC_FLDGT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDGT_S	disassmbler.h	/^    OPC_FLDGT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDLE_D	disassmbler.h	/^    OPC_FLDLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDLE_S	disassmbler.h	/^    OPC_FLDLE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDX_D	disassmbler.h	/^    OPC_FLDX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FLDX_S	disassmbler.h	/^    OPC_FLDX_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FLD_D	disassmbler.h	/^    OPC_FLD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FLD_S	disassmbler.h	/^    OPC_FLD_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FLOGB_D	disassmbler.h	/^    OPC_FLOGB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FLOGB_S	disassmbler.h	/^    OPC_FLOGB_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMADD_D	disassmbler.h	/^    OPC_FMADD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMADD_S	disassmbler.h	/^    OPC_FMADD_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMAXA_D	disassmbler.h	/^    OPC_FMAXA_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMAXA_S	disassmbler.h	/^    OPC_FMAXA_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMAX_D	disassmbler.h	/^    OPC_FMAX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMAX_S	disassmbler.h	/^    OPC_FMAX_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMINA_D	disassmbler.h	/^    OPC_FMINA_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMINA_S	disassmbler.h	/^    OPC_FMINA_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMIN_D	disassmbler.h	/^    OPC_FMIN_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMIN_S	disassmbler.h	/^    OPC_FMIN_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMOV_D	disassmbler.h	/^    OPC_FMOV_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMOV_S	disassmbler.h	/^    OPC_FMOV_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMSUB_D	disassmbler.h	/^    OPC_FMSUB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMSUB_S	disassmbler.h	/^    OPC_FMSUB_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FMUL_D	disassmbler.h	/^    OPC_FMUL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FMUL_S	disassmbler.h	/^    OPC_FMUL_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FNEG_D	disassmbler.h	/^    OPC_FNEG_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FNEG_S	disassmbler.h	/^    OPC_FNEG_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FNMADD_D	disassmbler.h	/^    OPC_FNMADD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FNMADD_S	disassmbler.h	/^    OPC_FNMADD_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FNMSUB_D	disassmbler.h	/^    OPC_FNMSUB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FNMSUB_S	disassmbler.h	/^    OPC_FNMSUB_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FRECIP_D	disassmbler.h	/^    OPC_FRECIP_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FRECIP_S	disassmbler.h	/^    OPC_FRECIP_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FRINT_D	disassmbler.h	/^    OPC_FRINT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FRINT_S	disassmbler.h	/^    OPC_FRINT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FRSQRT_D	disassmbler.h	/^    OPC_FRSQRT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FRSQRT_S	disassmbler.h	/^    OPC_FRSQRT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSCALEB_D	disassmbler.h	/^    OPC_FSCALEB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSCALEB_S	disassmbler.h	/^    OPC_FSCALEB_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSEL	disassmbler.h	/^    OPC_FSEL,$/;"	e	enum:__anon1b0d36540103
+OPC_FSQRT_D	disassmbler.h	/^    OPC_FSQRT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSQRT_S	disassmbler.h	/^    OPC_FSQRT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTGT_D	disassmbler.h	/^    OPC_FSTGT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTGT_S	disassmbler.h	/^    OPC_FSTGT_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTLE_D	disassmbler.h	/^    OPC_FSTLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTLE_S	disassmbler.h	/^    OPC_FSTLE_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTX_D	disassmbler.h	/^    OPC_FSTX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSTX_S	disassmbler.h	/^    OPC_FSTX_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FST_D	disassmbler.h	/^    OPC_FST_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FST_S	disassmbler.h	/^    OPC_FST_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FSUB_D	disassmbler.h	/^    OPC_FSUB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FSUB_S	disassmbler.h	/^    OPC_FSUB_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRM_L_D	disassmbler.h	/^    OPC_FTINTRM_L_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRM_L_S	disassmbler.h	/^    OPC_FTINTRM_L_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRM_W_D	disassmbler.h	/^    OPC_FTINTRM_W_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRM_W_S	disassmbler.h	/^    OPC_FTINTRM_W_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRNE_L_D	disassmbler.h	/^    OPC_FTINTRNE_L_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRNE_L_S	disassmbler.h	/^    OPC_FTINTRNE_L_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRNE_W_D	disassmbler.h	/^    OPC_FTINTRNE_W_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRNE_W_S	disassmbler.h	/^    OPC_FTINTRNE_W_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRP_L_D	disassmbler.h	/^    OPC_FTINTRP_L_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRP_L_S	disassmbler.h	/^    OPC_FTINTRP_L_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRP_W_D	disassmbler.h	/^    OPC_FTINTRP_W_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRP_W_S	disassmbler.h	/^    OPC_FTINTRP_W_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRZ_L_D	disassmbler.h	/^    OPC_FTINTRZ_L_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRZ_L_S	disassmbler.h	/^    OPC_FTINTRZ_L_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRZ_W_D	disassmbler.h	/^    OPC_FTINTRZ_W_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINTRZ_W_S	disassmbler.h	/^    OPC_FTINTRZ_W_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINT_L_D	disassmbler.h	/^    OPC_FTINT_L_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINT_L_S	disassmbler.h	/^    OPC_FTINT_L_S,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINT_W_D	disassmbler.h	/^    OPC_FTINT_W_D,$/;"	e	enum:__anon1b0d36540103
+OPC_FTINT_W_S	disassmbler.h	/^    OPC_FTINT_W_S,$/;"	e	enum:__anon1b0d36540103
+OPC_IBAR	disassmbler.h	/^    OPC_IBAR,$/;"	e	enum:__anon1b0d36540103
+OPC_IDLE	disassmbler.h	/^    OPC_IDLE,$/;"	e	enum:__anon1b0d36540103
+OPC_INVALID	disassmbler.h	/^    OPC_INVALID,$/;"	e	enum:__anon1b0d36540103
+OPC_INVTLB	disassmbler.h	/^    OPC_INVTLB,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRRD_B	disassmbler.h	/^    OPC_IOCSRRD_B,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRRD_D	disassmbler.h	/^    OPC_IOCSRRD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRRD_H	disassmbler.h	/^    OPC_IOCSRRD_H,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRRD_W	disassmbler.h	/^    OPC_IOCSRRD_W,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRWR_B	disassmbler.h	/^    OPC_IOCSRWR_B,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRWR_D	disassmbler.h	/^    OPC_IOCSRWR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRWR_H	disassmbler.h	/^    OPC_IOCSRWR_H,$/;"	e	enum:__anon1b0d36540103
+OPC_IOCSRWR_W	disassmbler.h	/^    OPC_IOCSRWR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_JIRL	disassmbler.h	/^    OPC_JIRL,$/;"	e	enum:__anon1b0d36540103
+OPC_LDDIR	disassmbler.h	/^    OPC_LDDIR,$/;"	e	enum:__anon1b0d36540103
+OPC_LDGT_B	disassmbler.h	/^    OPC_LDGT_B,$/;"	e	enum:__anon1b0d36540103
+OPC_LDGT_D	disassmbler.h	/^    OPC_LDGT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LDGT_H	disassmbler.h	/^    OPC_LDGT_H,$/;"	e	enum:__anon1b0d36540103
+OPC_LDGT_W	disassmbler.h	/^    OPC_LDGT_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LDLE_B	disassmbler.h	/^    OPC_LDLE_B,$/;"	e	enum:__anon1b0d36540103
+OPC_LDLE_D	disassmbler.h	/^    OPC_LDLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LDLE_H	disassmbler.h	/^    OPC_LDLE_H,$/;"	e	enum:__anon1b0d36540103
+OPC_LDLE_W	disassmbler.h	/^    OPC_LDLE_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LDPTE	disassmbler.h	/^    OPC_LDPTE,$/;"	e	enum:__anon1b0d36540103
+OPC_LDPTR_D	disassmbler.h	/^    OPC_LDPTR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LDPTR_W	disassmbler.h	/^    OPC_LDPTR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_B	disassmbler.h	/^    OPC_LDX_B,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_BU	disassmbler.h	/^    OPC_LDX_BU,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_D	disassmbler.h	/^    OPC_LDX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_H	disassmbler.h	/^    OPC_LDX_H,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_HU	disassmbler.h	/^    OPC_LDX_HU,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_W	disassmbler.h	/^    OPC_LDX_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LDX_WU	disassmbler.h	/^    OPC_LDX_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_B	disassmbler.h	/^    OPC_LD_B,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_BU	disassmbler.h	/^    OPC_LD_BU,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_D	disassmbler.h	/^    OPC_LD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_H	disassmbler.h	/^    OPC_LD_H,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_HU	disassmbler.h	/^    OPC_LD_HU,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_W	disassmbler.h	/^    OPC_LD_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LD_WU	disassmbler.h	/^    OPC_LD_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_LL_D	disassmbler.h	/^    OPC_LL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LL_W	disassmbler.h	/^    OPC_LL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LU12I_W	disassmbler.h	/^    OPC_LU12I_W,$/;"	e	enum:__anon1b0d36540103
+OPC_LU32I_D	disassmbler.h	/^    OPC_LU32I_D,$/;"	e	enum:__anon1b0d36540103
+OPC_LU52I_D	disassmbler.h	/^    OPC_LU52I_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MASKEQZ	disassmbler.h	/^    OPC_MASKEQZ,$/;"	e	enum:__anon1b0d36540103
+OPC_MASKNEZ	disassmbler.h	/^    OPC_MASKNEZ,$/;"	e	enum:__anon1b0d36540103
+OPC_MOD_D	disassmbler.h	/^    OPC_MOD_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MOD_DU	disassmbler.h	/^    OPC_MOD_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_MOD_W	disassmbler.h	/^    OPC_MOD_W,$/;"	e	enum:__anon1b0d36540103
+OPC_MOD_WU	disassmbler.h	/^    OPC_MOD_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVCF2FR	disassmbler.h	/^    OPC_MOVCF2FR,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVCF2GR	disassmbler.h	/^    OPC_MOVCF2GR,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVFCSR2GR	disassmbler.h	/^    OPC_MOVFCSR2GR,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVFR2CF	disassmbler.h	/^    OPC_MOVFR2CF,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVFR2GR_D	disassmbler.h	/^    OPC_MOVFR2GR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVFR2GR_S	disassmbler.h	/^    OPC_MOVFR2GR_S,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVFRH2GR_S	disassmbler.h	/^    OPC_MOVFRH2GR_S,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVGR2CF	disassmbler.h	/^    OPC_MOVGR2CF,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVGR2FCSR	disassmbler.h	/^    OPC_MOVGR2FCSR,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVGR2FRH_W	disassmbler.h	/^    OPC_MOVGR2FRH_W,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVGR2FR_D	disassmbler.h	/^    OPC_MOVGR2FR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MOVGR2FR_W	disassmbler.h	/^    OPC_MOVGR2FR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_MULH_D	disassmbler.h	/^    OPC_MULH_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MULH_DU	disassmbler.h	/^    OPC_MULH_DU,$/;"	e	enum:__anon1b0d36540103
+OPC_MULH_W	disassmbler.h	/^    OPC_MULH_W,$/;"	e	enum:__anon1b0d36540103
+OPC_MULH_WU	disassmbler.h	/^    OPC_MULH_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_MULW_D_W	disassmbler.h	/^    OPC_MULW_D_W,$/;"	e	enum:__anon1b0d36540103
+OPC_MULW_D_WU	disassmbler.h	/^    OPC_MULW_D_WU,$/;"	e	enum:__anon1b0d36540103
+OPC_MUL_D	disassmbler.h	/^    OPC_MUL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_MUL_W	disassmbler.h	/^    OPC_MUL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_NOR	disassmbler.h	/^    OPC_NOR,$/;"	e	enum:__anon1b0d36540103
+OPC_OR	disassmbler.h	/^    OPC_OR,$/;"	e	enum:__anon1b0d36540103
+OPC_ORI	disassmbler.h	/^    OPC_ORI,$/;"	e	enum:__anon1b0d36540103
+OPC_ORN	disassmbler.h	/^    OPC_ORN,$/;"	e	enum:__anon1b0d36540103
+OPC_PCADDI	disassmbler.h	/^    OPC_PCADDI,$/;"	e	enum:__anon1b0d36540103
+OPC_PCADDU12I	disassmbler.h	/^    OPC_PCADDU12I,$/;"	e	enum:__anon1b0d36540103
+OPC_PCADDU18I	disassmbler.h	/^    OPC_PCADDU18I,$/;"	e	enum:__anon1b0d36540103
+OPC_PCALAU12I	disassmbler.h	/^    OPC_PCALAU12I,$/;"	e	enum:__anon1b0d36540103
+OPC_PRELD	disassmbler.h	/^    OPC_PRELD,$/;"	e	enum:__anon1b0d36540103
+OPC_PRELDX	disassmbler.h	/^    OPC_PRELDX,$/;"	e	enum:__anon1b0d36540103
+OPC_RDTIMEH_W	disassmbler.h	/^    OPC_RDTIMEH_W,$/;"	e	enum:__anon1b0d36540103
+OPC_RDTIMEL_W	disassmbler.h	/^    OPC_RDTIMEL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_RDTIME_D	disassmbler.h	/^    OPC_RDTIME_D,$/;"	e	enum:__anon1b0d36540103
+OPC_REVB_2H	disassmbler.h	/^    OPC_REVB_2H,$/;"	e	enum:__anon1b0d36540103
+OPC_REVB_2W	disassmbler.h	/^    OPC_REVB_2W,$/;"	e	enum:__anon1b0d36540103
+OPC_REVB_4H	disassmbler.h	/^    OPC_REVB_4H,$/;"	e	enum:__anon1b0d36540103
+OPC_REVB_D	disassmbler.h	/^    OPC_REVB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_REVH_2W	disassmbler.h	/^    OPC_REVH_2W,$/;"	e	enum:__anon1b0d36540103
+OPC_REVH_D	disassmbler.h	/^    OPC_REVH_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ROTRI_D	disassmbler.h	/^    OPC_ROTRI_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ROTRI_W	disassmbler.h	/^    OPC_ROTRI_W,$/;"	e	enum:__anon1b0d36540103
+OPC_ROTR_D	disassmbler.h	/^    OPC_ROTR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ROTR_W	disassmbler.h	/^    OPC_ROTR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SC_D	disassmbler.h	/^    OPC_SC_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SC_W	disassmbler.h	/^    OPC_SC_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SLLI_D	disassmbler.h	/^    OPC_SLLI_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SLLI_W	disassmbler.h	/^    OPC_SLLI_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SLL_D	disassmbler.h	/^    OPC_SLL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SLL_W	disassmbler.h	/^    OPC_SLL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SLT	disassmbler.h	/^    OPC_SLT,$/;"	e	enum:__anon1b0d36540103
+OPC_SLTI	disassmbler.h	/^    OPC_SLTI,$/;"	e	enum:__anon1b0d36540103
+OPC_SLTU	disassmbler.h	/^    OPC_SLTU,$/;"	e	enum:__anon1b0d36540103
+OPC_SLTUI	disassmbler.h	/^    OPC_SLTUI,$/;"	e	enum:__anon1b0d36540103
+OPC_SRAI_D	disassmbler.h	/^    OPC_SRAI_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SRAI_W	disassmbler.h	/^    OPC_SRAI_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SRA_D	disassmbler.h	/^    OPC_SRA_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SRA_W	disassmbler.h	/^    OPC_SRA_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SRLI_D	disassmbler.h	/^    OPC_SRLI_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SRLI_W	disassmbler.h	/^    OPC_SRLI_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SRL_D	disassmbler.h	/^    OPC_SRL_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SRL_W	disassmbler.h	/^    OPC_SRL_W,$/;"	e	enum:__anon1b0d36540103
+OPC_STGT_B	disassmbler.h	/^    OPC_STGT_B,$/;"	e	enum:__anon1b0d36540103
+OPC_STGT_D	disassmbler.h	/^    OPC_STGT_D,$/;"	e	enum:__anon1b0d36540103
+OPC_STGT_H	disassmbler.h	/^    OPC_STGT_H,$/;"	e	enum:__anon1b0d36540103
+OPC_STGT_W	disassmbler.h	/^    OPC_STGT_W,$/;"	e	enum:__anon1b0d36540103
+OPC_STLE_B	disassmbler.h	/^    OPC_STLE_B,$/;"	e	enum:__anon1b0d36540103
+OPC_STLE_D	disassmbler.h	/^    OPC_STLE_D,$/;"	e	enum:__anon1b0d36540103
+OPC_STLE_H	disassmbler.h	/^    OPC_STLE_H,$/;"	e	enum:__anon1b0d36540103
+OPC_STLE_W	disassmbler.h	/^    OPC_STLE_W,$/;"	e	enum:__anon1b0d36540103
+OPC_STPTR_D	disassmbler.h	/^    OPC_STPTR_D,$/;"	e	enum:__anon1b0d36540103
+OPC_STPTR_W	disassmbler.h	/^    OPC_STPTR_W,$/;"	e	enum:__anon1b0d36540103
+OPC_STX_B	disassmbler.h	/^    OPC_STX_B,$/;"	e	enum:__anon1b0d36540103
+OPC_STX_D	disassmbler.h	/^    OPC_STX_D,$/;"	e	enum:__anon1b0d36540103
+OPC_STX_H	disassmbler.h	/^    OPC_STX_H,$/;"	e	enum:__anon1b0d36540103
+OPC_STX_W	disassmbler.h	/^    OPC_STX_W,$/;"	e	enum:__anon1b0d36540103
+OPC_ST_B	disassmbler.h	/^    OPC_ST_B,$/;"	e	enum:__anon1b0d36540103
+OPC_ST_D	disassmbler.h	/^    OPC_ST_D,$/;"	e	enum:__anon1b0d36540103
+OPC_ST_H	disassmbler.h	/^    OPC_ST_H,$/;"	e	enum:__anon1b0d36540103
+OPC_ST_W	disassmbler.h	/^    OPC_ST_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SUB_D	disassmbler.h	/^    OPC_SUB_D,$/;"	e	enum:__anon1b0d36540103
+OPC_SUB_W	disassmbler.h	/^    OPC_SUB_W,$/;"	e	enum:__anon1b0d36540103
+OPC_SYSCALL	disassmbler.h	/^    OPC_SYSCALL,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBCLR	disassmbler.h	/^    OPC_TLBCLR,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBFILL	disassmbler.h	/^    OPC_TLBFILL,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBFLUSH	disassmbler.h	/^    OPC_TLBFLUSH,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBRD	disassmbler.h	/^    OPC_TLBRD,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBSRCH	disassmbler.h	/^    OPC_TLBSRCH,$/;"	e	enum:__anon1b0d36540103
+OPC_TLBWR	disassmbler.h	/^    OPC_TLBWR,$/;"	e	enum:__anon1b0d36540103
+OPC_XOR	disassmbler.h	/^    OPC_XOR,$/;"	e	enum:__anon1b0d36540103
+OPC_XORI	disassmbler.h	/^    OPC_XORI,$/;"	e	enum:__anon1b0d36540103
+Segment	aot_class.cpp	/^Segment::Segment(FILE* f, const AOT_Segment* seg):seg(seg)$/;"	f	class:Segment
+Segment	aot_class.h	/^class Segment$/;"	c
+SetNextTB	aot_class.cpp	/^void SetNextTB(std::shared_ptr<TB> tb ,std::shared_ptr<TB> branch, bool is_true_branch)$/;"	f	typeref:typename:void
+TB	aot_class.cpp	/^TB::TB(FILE* f, const AOT_TB* aot_tb, u_int32_t SegBegin):origin_aot_tb(aot_tb)$/;"	f	class:TB
+TB	aot_class.h	/^class TB$/;"	c
+TB_JMP_RESET_OFFSET_INVALID	aot1.h	/^#define TB_JMP_RESET_OFFSET_INVALID /;"	d
+TB_Link	aot_class.cpp	/^void Segment::TB_Link(std::shared_ptr<TB> tb, bool is_true_branch, const std::vector<AOT_rel>& r/;"	f	class:Segment	typeref:typename:void
+TB_SET_REL	aot.h	/^#define TB_SET_REL(/;"	d
+TB_Vistor	aot_class.h	/^class TB_Vistor$/;"	c
+_AOT_LINK_SEG_H_	aot_link_seg.h	/^#define _AOT_LINK_SEG_H_$/;"	d
+__AOT_CLASS	aot_class.h	/^#define __AOT_CLASS$/;"	d
+__AOT_H	aot1.h	/^#define __AOT_H$/;"	d
+__AOT_H_	aot.h	/^#define __AOT_H_$/;"	d
+__DIS	disassmbler.h	/^#define __DIS$/;"	d
+__SEGMENT_H_	segment.h	/^#define __SEGMENT_H_$/;"	d
+__UTIL	util.h	/^#define __UTIL$/;"	d
+__anon1b0d36540103	disassmbler.h	/^typedef enum {$/;"	g
+__anon1b0d36540208	disassmbler.h	/^typedef struct {$/;"	s
+_segs	aot_class.h	/^            std::vector<Segment*> _segs;$/;"	m	class:AOT_File	typeref:typename:std::vector<Segment * >
+_tbs	aot_class.h	/^        std::vector<std::shared_ptr<TB>> _tbs;$/;"	m	class:Segment	typeref:typename:std::vector<std::shared_ptr<TB>>
+addr	aot_link_seg.h	/^    const void *addr;$/;"	m	struct:aot_link_info	typeref:typename:const void *
+aot_header	aot.h	/^typedef struct aot_header {$/;"	s
+aot_header	aot.h	/^} aot_header;$/;"	t	typeref:struct:aot_header
+aot_link_info	aot_link_seg.h	/^typedef struct aot_link_info {$/;"	s
+aot_link_info	aot_link_seg.h	/^} aot_link_info;$/;"	t	typeref:struct:aot_link_info
+aot_rel	aot.h	/^typedef struct aot_rel {$/;"	s
+aot_rel	aot.h	/^} aot_rel;$/;"	t	typeref:struct:aot_rel
+aot_rel_kind	aot.h	/^typedef enum aot_rel_kind {$/;"	g
+aot_rel_kind	aot.h	/^} aot_rel_kind;$/;"	t	typeref:enum:aot_rel_kind
+aot_rel_kind	aot1.h	/^typedef enum aot_rel_kind {$/;"	g
+aot_rel_kind	aot1.h	/^} aot_rel_kind;$/;"	t	typeref:enum:aot_rel_kind
+aot_segment	aot.h	/^typedef struct aot_segment {$/;"	s
+aot_segment	aot.h	/^} aot_segment;$/;"	t	typeref:struct:aot_segment
+aot_tb	aot.h	/^typedef struct aot_tb {$/;"	s
+aot_tb	aot.h	/^} aot_tb;$/;"	t	typeref:struct:aot_tb
+cc_name	disassmbler.h	/^static const char *cc_name[] = {$/;"	v	typeref:typename:const char * []
+code	aot_class.h	/^        char* code;$/;"	m	class:TB	typeref:typename:char *
+code_size	aot_class.h	/^        u_int32_t code_size;$/;"	m	class:TB	typeref:typename:u_int32_t
+cpu	aot_link_seg.h	/^    \/*CPUState*\/void *cpu;$/;"	m	struct:aot_link_info	typeref:typename:void *
+d	hello/new/a.c	/^void d()$/;"	f	typeref:typename:void
+decode	disassmbler.cpp	/^bool decode(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:bool
+decode_extract_format_0	disassmbler.cpp	/^static void decode_extract_format_0(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_1	disassmbler.cpp	/^static void decode_extract_format_1(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_10	disassmbler.cpp	/^static void decode_extract_format_10(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_11	disassmbler.cpp	/^static void decode_extract_format_11(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_12	disassmbler.cpp	/^static void decode_extract_format_12(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_13	disassmbler.cpp	/^static void decode_extract_format_13(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_14	disassmbler.cpp	/^static void decode_extract_format_14(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_15	disassmbler.cpp	/^static void decode_extract_format_15(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_16	disassmbler.cpp	/^static void decode_extract_format_16(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_17	disassmbler.cpp	/^static void decode_extract_format_17(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_18	disassmbler.cpp	/^static void decode_extract_format_18(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_19	disassmbler.cpp	/^static void decode_extract_format_19(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_2	disassmbler.cpp	/^static void decode_extract_format_2(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_20	disassmbler.cpp	/^static void decode_extract_format_20(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_21	disassmbler.cpp	/^static void decode_extract_format_21(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_22	disassmbler.cpp	/^static void decode_extract_format_22(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_23	disassmbler.cpp	/^static void decode_extract_format_23(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_24	disassmbler.cpp	/^static void decode_extract_format_24(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_25	disassmbler.cpp	/^static void decode_extract_format_25(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_26	disassmbler.cpp	/^static void decode_extract_format_26(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_27	disassmbler.cpp	/^static void decode_extract_format_27(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_28	disassmbler.cpp	/^static void decode_extract_format_28(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_29	disassmbler.cpp	/^static void decode_extract_format_29(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_3	disassmbler.cpp	/^static void decode_extract_format_3(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_30	disassmbler.cpp	/^static void decode_extract_format_30(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_31	disassmbler.cpp	/^static void decode_extract_format_31(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_32	disassmbler.cpp	/^static void decode_extract_format_32(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_33	disassmbler.cpp	/^static void decode_extract_format_33(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_34	disassmbler.cpp	/^static void decode_extract_format_34(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_35	disassmbler.cpp	/^static void decode_extract_format_35(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_36	disassmbler.cpp	/^static void decode_extract_format_36(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_37	disassmbler.cpp	/^static void decode_extract_format_37(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_38	disassmbler.cpp	/^static void decode_extract_format_38(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_39	disassmbler.cpp	/^static void decode_extract_format_39(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_4	disassmbler.cpp	/^static void decode_extract_format_4(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_40	disassmbler.cpp	/^static void decode_extract_format_40(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_41	disassmbler.cpp	/^static void decode_extract_format_41(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_42	disassmbler.cpp	/^static void decode_extract_format_42(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_43	disassmbler.cpp	/^static void decode_extract_format_43(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_44	disassmbler.cpp	/^static void decode_extract_format_44(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_45	disassmbler.cpp	/^static void decode_extract_format_45(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_5	disassmbler.cpp	/^static void decode_extract_format_5(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_6	disassmbler.cpp	/^static void decode_extract_format_6(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_7	disassmbler.cpp	/^static void decode_extract_format_7(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_8	disassmbler.cpp	/^static void decode_extract_format_8(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+decode_extract_format_9	disassmbler.cpp	/^static void decode_extract_format_9(LoongArchInsInfo *info, uint32_t insn)$/;"	f	typeref:typename:void	file:
+deposit32	disassmbler.cpp	/^static inline uint32_t deposit32(uint32_t value, int start, int length,$/;"	f	typeref:typename:uint32_t	file:
+details	aot.h	/^    seg_info details;$/;"	m	struct:aot_segment	typeref:typename:seg_info
+dis_insns	aot_class.h	/^        std::vector<LoongArchInsInfo> dis_insns;$/;"	m	class:TB	typeref:typename:std::vector<LoongArchInsInfo>
+error	util.h	/^void error(const std::string& mes)$/;"	f	typeref:typename:void
+extra_addend	aot.h	/^    target_ulong extra_addend;$/;"	m	struct:aot_rel	typeref:typename:target_ulong
+extra_addend	aot1.h	/^     target_ulong extra_addend;$/;"	m	struct:AOT_rel	typeref:typename:target_ulong
+extract32	disassmbler.cpp	/^static inline uint32_t extract32(uint32_t value, int start, int length)$/;"	f	typeref:typename:uint32_t	file:
+f	hello/new/a.c	/^void f()$/;"	f	typeref:typename:void
+fallthru_segment_idx	aot.h	/^    int fallthru_segment_idx;$/;"	m	struct:aot_tb	typeref:typename:int
+fallthru_segment_idx	aot1.h	/^    int fallthru_segment_idx;$/;"	m	struct:AOT_TB	typeref:typename:int
+false_branch	aot_class.h	/^        std::shared_ptr<TB> false_branch;$/;"	m	class:TB	typeref:typename:std::shared_ptr<TB>
+file	aot1.h	/^    char* file;$/;"	m	struct:AOT_SegInfo	typeref:typename:char *
+file_name	segment.h	/^    char *file_name;$/;"	m	struct:seg_info	typeref:typename:char *
+file_offset	aot1.h	/^    target_ulong file_offset;$/;"	m	struct:AOT_SegInfo	typeref:typename:target_ulong
+file_offset	aot_class.h	/^        target_ulong file_offset;$/;"	m	class:Segment	typeref:typename:target_ulong
+file_offset	segment.h	/^    target_ulong file_offset;$/;"	m	struct:seg_info	typeref:typename:target_ulong
+flags	aot.h	/^    uint32_t flags;$/;"	m	struct:aot_tb	typeref:typename:uint32_t
+flags	aot1.h	/^    u_int32_t flags;$/;"	m	struct:AOT_TB	typeref:typename:u_int32_t
+flags	aot_link_seg.h	/^    u_int32_t flags;$/;"	m	struct:aot_link_info	typeref:typename:u_int32_t
+fpr_name	disassmbler.h	/^static const char *fpr_name[] = {$/;"	v	typeref:typename:const char * []
+g	hello/new/a.c	/^void g()$/;"	f	typeref:typename:void
+get_addr	aot_class.cpp	/^void Segment::get_addr(u_int64_t* res, int which, const TB& tb, const std::vector<AOT_rel>& rels/;"	f	class:Segment	typeref:typename:void
+gpr_name	disassmbler.h	/^static const char *gpr_name[] = {$/;"	v	typeref:typename:const char * []
+hdr	aot_class.h	/^            AOT_Header hdr;$/;"	m	class:AOT_File	typeref:typename:AOT_Header
+info	aot1.h	/^    AOT_SegInfo info;$/;"	m	struct:AOT_Segment	typeref:typename:AOT_SegInfo
+is_mapped	aot.h	/^    bool is_mapped;$/;"	m	struct:aot_segment	typeref:typename:bool
+ismap	aot1.h	/^    bool ismap;$/;"	m	struct:AOT_Segment	typeref:typename:bool
+jmp_reset_offset	aot.h	/^    uint16_t jmp_reset_offset[2];$/;"	m	struct:aot_tb	typeref:typename:uint16_t[2]
+jmp_reset_offsets	aot1.h	/^    u_int16_t jmp_reset_offsets[2];$/;"	m	struct:AOT_TB	typeref:typename:u_int16_t[2]
+jmp_target_arg	aot.h	/^    uintptr_t jmp_target_arg[2];$/;"	m	struct:aot_tb	typeref:typename:uintptr_t[2]
+jmp_target_arg	aot1.h	/^    uintptr_t jmp_target_arg[2];$/;"	m	struct:AOT_TB	typeref:typename:uintptr_t[2]
+kind	aot.h	/^    aot_rel_kind kind;$/;"	m	struct:aot_rel	typeref:typename:aot_rel_kind
+kind	aot1.h	/^     aot_rel_kind kind;$/;"	m	struct:AOT_rel	typeref:typename:aot_rel_kind
+lib_name	aot_class.h	/^        std::string lib_name;$/;"	m	class:Segment	typeref:typename:std::string
+lib_name_offset	aot.h	/^    uint32_t lib_name_offset;$/;"	m	struct:aot_segment	typeref:typename:uint32_t
+lib_name_offset	aot1.h	/^    u_int32_t lib_name_offset;$/;"	m	struct:AOT_Segment	typeref:typename:u_int32_t
+main	aot_class.cpp	/^int main()$/;"	f	typeref:typename:int
+main	hello/hello.c	/^int main()$/;"	f	typeref:typename:int
+main	hello/new/test.c	/^int main()$/;"	f	typeref:typename:int
+nb_opnds	disassmbler.h	/^    int nb_opnds;$/;"	m	struct:__anon1b0d36540208	typeref:typename:int
+offset_in_segment	aot.h	/^    uint32_t offset_in_segment;$/;"	m	struct:aot_tb	typeref:typename:uint32_t
+offset_in_segment	aot1.h	/^    u_int32_t offset_in_segment;$/;"	m	struct:AOT_TB	typeref:typename:u_int32_t
+opc	disassmbler.h	/^    LoongArchOpc opc;$/;"	m	struct:__anon1b0d36540208	typeref:typename:LoongArchOpc
+opcode_name	disassmbler.h	/^static const char *opcode_name[] = {$/;"	v	typeref:typename:const char * []
+opnds	disassmbler.h	/^    int opnds[4];$/;"	m	struct:__anon1b0d36540208	typeref:typename:int[4]
+origin_aot_tb	aot_class.h	/^        const AOT_TB* origin_aot_tb;$/;"	m	class:TB	typeref:typename:const AOT_TB *
+parents	aot_class.h	/^        std::vector<std::shared_ptr<TB>> parents;$/;"	m	class:TB	typeref:typename:std::vector<std::shared_ptr<TB>>
+pc	aot_link_seg.h	/^    target_ulong pc;$/;"	m	struct:aot_link_info	typeref:typename:target_ulong
+print_format_0	disassmbler.h	/^static void print_format_0(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_1	disassmbler.h	/^static void print_format_1(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_10	disassmbler.h	/^static void print_format_10(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_11	disassmbler.h	/^static void print_format_11(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_12	disassmbler.h	/^static void print_format_12(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_13	disassmbler.h	/^static void print_format_13(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_14	disassmbler.h	/^static void print_format_14(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_15	disassmbler.h	/^static void print_format_15(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_16	disassmbler.h	/^static void print_format_16(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_17	disassmbler.h	/^static void print_format_17(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_18	disassmbler.h	/^static void print_format_18(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_19	disassmbler.h	/^static void print_format_19(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_2	disassmbler.h	/^static void print_format_2(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_20	disassmbler.h	/^static void print_format_20(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_21	disassmbler.h	/^static void print_format_21(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_22	disassmbler.h	/^static void print_format_22(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_23	disassmbler.h	/^static void print_format_23(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_24	disassmbler.h	/^static void print_format_24(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_25	disassmbler.h	/^static void print_format_25(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_26	disassmbler.h	/^static void print_format_26(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_27	disassmbler.h	/^static void print_format_27(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_28	disassmbler.h	/^static void print_format_28(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_29	disassmbler.h	/^static void print_format_29(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_3	disassmbler.h	/^static void print_format_3(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_30	disassmbler.h	/^static void print_format_30(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_31	disassmbler.h	/^static void print_format_31(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_32	disassmbler.h	/^static void print_format_32(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_33	disassmbler.h	/^static void print_format_33(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_34	disassmbler.h	/^static void print_format_34(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_35	disassmbler.h	/^static void print_format_35(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_36	disassmbler.h	/^static void print_format_36(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_37	disassmbler.h	/^static void print_format_37(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_38	disassmbler.h	/^static void print_format_38(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_39	disassmbler.h	/^static void print_format_39(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_4	disassmbler.h	/^static void print_format_4(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_40	disassmbler.h	/^static void print_format_40(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_41	disassmbler.h	/^static void print_format_41(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_42	disassmbler.h	/^static void print_format_42(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_43	disassmbler.h	/^static void print_format_43(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_44	disassmbler.h	/^static void print_format_44(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_45	disassmbler.h	/^static void print_format_45(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_5	disassmbler.h	/^static void print_format_5(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_6	disassmbler.h	/^static void print_format_6(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_7	disassmbler.h	/^static void print_format_7(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_8	disassmbler.h	/^static void print_format_8(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_format_9	disassmbler.h	/^static void print_format_9(LoongArchInsInfo *info, struct disassemble_info *dis)$/;"	f	typeref:typename:void
+print_func_table	disassmbler.h	/^static void (*print_func_table[]) (LoongArchInsInfo *) = {$/;"	v	typeref:typename:void (* [])(LoongArchInsInfo *)
+rel_end_index	aot.h	/^    int32_t rel_end_index;$/;"	m	struct:aot_tb	typeref:typename:int32_t
+rel_end_index	aot1.h	/^    int32_t rel_end_index;$/;"	m	struct:AOT_TB	typeref:typename:int32_t
+rel_entry_num	aot.h	/^    uint32_t rel_entry_num; \/* relocation entries num. *\/$/;"	m	struct:aot_header	typeref:typename:uint32_t
+rel_slots_num	aot.h	/^    uint32_t rel_slots_num;$/;"	m	struct:aot_rel	typeref:typename:uint32_t
+rel_slots_num	aot1.h	/^     u_int32_t rel_slots_num;$/;"	m	struct:AOT_rel	typeref:typename:u_int32_t
+rel_start_index	aot.h	/^    int32_t rel_start_index;$/;"	m	struct:aot_tb	typeref:typename:int32_t
+rel_start_index	aot1.h	/^    int32_t rel_start_index;$/;"	m	struct:AOT_TB	typeref:typename:int32_t
+rel_table_offset	aot.h	/^    uint32_t rel_table_offset; \/* relocation table offset in aot file. *\/$/;"	m	struct:aot_header	typeref:typename:uint32_t
+rels	aot_class.h	/^            std::vector<AOT_rel> rels;$/;"	m	class:AOT_File	typeref:typename:std::vector<AOT_rel>
+reltable_num	aot1.h	/^    u_int32_t reltable_num;$/;"	m	struct:AOT_Header	typeref:typename:u_int32_t
+reltable_offset	aot1.h	/^    u_int32_t reltable_offset;$/;"	m	struct:AOT_Header	typeref:typename:u_int32_t
+scr_name	disassmbler.h	/^static const char *scr_name[] = {$/;"	v	typeref:typename:const char * []
+seg	aot_class.h	/^        const AOT_Segment* seg;$/;"	m	class:Segment	typeref:typename:const AOT_Segment *
+seg_begin	aot1.h	/^    target_ulong seg_begin;$/;"	m	struct:AOT_SegInfo	typeref:typename:target_ulong
+seg_begin	segment.h	/^    target_ulong seg_begin;$/;"	m	struct:seg_info	typeref:typename:target_ulong
+seg_end	aot1.h	/^    target_ulong seg_end;$/;"	m	struct:AOT_SegInfo	typeref:typename:target_ulong
+seg_end	segment.h	/^    target_ulong seg_end;$/;"	m	struct:seg_info	typeref:typename:target_ulong
+seg_info	segment.h	/^typedef struct seg_info {$/;"	s
+seg_info	segment.h	/^} seg_info;$/;"	t	typeref:struct:seg_info
+seg_start	aot_class.h	/^            u_int64_t seg_start;$/;"	m	class:DisassmblePrinterVistor	typeref:typename:u_int64_t
+segment_idx	aot.h	/^    int segment_idx;$/;"	m	struct:aot_tb	typeref:typename:int
+segment_idx	aot1.h	/^    int segment_idx;$/;"	m	struct:AOT_TB	typeref:typename:int
+segment_table_offset	aot.h	/^    uint32_t segment_table_offset;$/;"	m	struct:aot_header	typeref:typename:uint32_t
+segment_tbs_num	aot.h	/^    uint32_t segment_tbs_num;$/;"	m	struct:aot_segment	typeref:typename:uint32_t
+segment_tbs_offset	aot.h	/^    uint32_t segment_tbs_offset;$/;"	m	struct:aot_segment	typeref:typename:uint32_t
+segments	aot_class.h	/^            std::vector<AOT_Segment> segments;$/;"	m	class:AOT_File	typeref:typename:std::vector<AOT_Segment>
+segments_num	aot.h	/^    uint32_t segments_num;$/;"	m	struct:aot_header	typeref:typename:uint32_t
+segnum	aot1.h	/^    u_int32_t segnum;$/;"	m	struct:AOT_Header	typeref:typename:u_int32_t
+segtab_offset	aot1.h	/^    u_int32_t segtab_offset;$/;"	m	struct:AOT_Header	typeref:typename:u_int32_t
+settle_all_tb	aot_class.cpp	/^void Segment::settle_all_tb(const std::vector<AOT_rel>& rels)$/;"	f	class:Segment	typeref:typename:void
+sextract32	disassmbler.cpp	/^static inline int32_t sextract32(uint32_t value, int start, int length)$/;"	f	typeref:typename:int32_t	file:
+size	aot.h	/^    uint32_t size;$/;"	m	struct:aot_tb	typeref:typename:uint32_t
+size	aot1.h	/^    u_int32_t size;$/;"	m	struct:AOT_TB	typeref:typename:u_int32_t
+start	aot_class.cpp	/^void DisassmblePrinterVistor::start(Segment& seg)$/;"	f	class:DisassmblePrinterVistor	typeref:typename:void
+start	aot_class.cpp	/^void DisassmbleVistor::start(Segment& seg)$/;"	f	class:DisassmbleVistor	typeref:typename:void
+target_segment_idx	aot.h	/^    int target_segment_idx;$/;"	m	struct:aot_tb	typeref:typename:int
+target_segment_idx	aot1.h	/^    int target_segment_idx;$/;"	m	struct:AOT_TB	typeref:typename:int
+target_ulong	aot1.h	/^typedef u_int64_t target_ulong;$/;"	t	typeref:typename:u_int64_t
+target_ulong	aot_link_seg.h	/^typedef u_int64_t target_ulong;$/;"	t	typeref:typename:u_int64_t
+target_ulong	segment.h	/^typedef u_int64_t target_ulong;$/;"	t	typeref:typename:u_int64_t
+tb_cache_addr	aot.h	/^    void *tb_cache_addr;$/;"	m	struct:aot_tb	typeref:typename:void *
+tb_cache_addr	aot1.h	/^    void* tb_cache_addr; \/\/userless?$/;"	m	struct:AOT_TB	typeref:typename:void *
+tb_cache_offset	aot.h	/^    uint32_t tb_cache_offset;$/;"	m	struct:aot_tb	typeref:typename:uint32_t
+tb_cache_offset	aot1.h	/^    u_int32_t tb_cache_offset;$/;"	m	struct:AOT_TB	typeref:typename:u_int32_t
+tb_cache_size	aot.h	/^    uint32_t tb_cache_size;$/;"	m	struct:aot_tb	typeref:typename:uint32_t
+tb_cache_size	aot1.h	/^    u_int32_t tb_cache_size;$/;"	m	struct:AOT_TB	typeref:typename:u_int32_t
+tb_nums	aot1.h	/^    u_int32_t tb_nums;$/;"	m	struct:AOT_Segment	typeref:typename:u_int32_t
+tb_offset	aot1.h	/^    u_int32_t tb_offset;$/;"	m	struct:AOT_Segment	typeref:typename:u_int32_t
+tbs	aot_class.h	/^        std::vector<AOT_TB> tbs;$/;"	m	class:Segment	typeref:typename:std::vector<AOT_TB>
+tc_offset	aot.h	/^    uint32_t tc_offset;$/;"	m	struct:aot_rel	typeref:typename:uint32_t
+tc_offset	aot1.h	/^     u_int32_t tc_offset;$/;"	m	struct:AOT_rel	typeref:typename:u_int32_t
+true_branch	aot_class.h	/^        std::shared_ptr<TB> true_branch;$/;"	m	class:TB	typeref:typename:std::shared_ptr<TB>
+uintptr_t	aot1.h	/^#define uintptr_t /;"	d
+visit	aot_class.cpp	/^void DisassmblePrinterVistor::visit(TB& tb)$/;"	f	class:DisassmblePrinterVistor	typeref:typename:void
+visit	aot_class.cpp	/^void DisassmbleVistor::visit(TB& tb)$/;"	f	class:DisassmbleVistor	typeref:typename:void
+visit	aot_class.cpp	/^void TB::visit(TB_Vistor& vistor)$/;"	f	class:TB	typeref:typename:void
+warn	util.h	/^void warn(const std::string& mes)$/;"	f	typeref:typename:void
+x86AddrToTb	aot_class.h	/^std::map<u_int64_t, std::shared_ptr<TB>> x86AddrToTb;$/;"	v	typeref:typename:std::map<u_int64_t,std::shared_ptr<TB>>
+x86_entry_addr	aot_class.cpp	/^u_int64_t x86_entry_addr = 0x4017f0;$/;"	v	typeref:typename:u_int64_t
+x86_rip_offset	aot.h	/^    uint32_t x86_rip_offset;$/;"	m	struct:aot_rel	typeref:typename:uint32_t
+x86_rip_offset	aot1.h	/^     u_int32_t x86_rip_offset;$/;"	m	struct:AOT_rel	typeref:typename:u_int32_t
