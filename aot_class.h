@@ -19,8 +19,11 @@ class TB
         std::shared_ptr<TB> false_branch;
         std::vector<std::shared_ptr<TB>> parents;
         std::vector<AOT_rel> rels;
+        std::vector<bool> rels_valid; 
         LinkList<LoongArchInsInfo> dis_insns;
         ListNode<LoongArchInsInfo>* delete_ith_insn(ListNode<LoongArchInsInfo>* node, u_int64_t i);
+        ListNode<LoongArchInsInfo>* delete_ith_insn_alongwith_rel(ListNode<LoongArchInsInfo>* node, u_int64_t i);
+        ListNode<LoongArchInsInfo>* delete_ith_rel(u_int64_t i);
         //std::vector<LoongArchInsInfo> dis_insns;
         AOT_TB* origin_aot_tb;
         u_int64_t x86_addr;

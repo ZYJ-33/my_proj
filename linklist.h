@@ -1,6 +1,7 @@
 #ifndef LINKLIST
 #define LINKLIST
 #include <cstdlib>
+#include <cassert>
 
 template<typename T>
 class ListNode
@@ -58,6 +59,23 @@ class LinkList
                 head.prev = nullptr;
                 tail.prev = &head;
                 tail.next = nullptr;
+            }
+
+            ListNode<subclass>* get(u_int64_t i)
+            {
+                assert(i < size);
+                ListNode<subclass>* go = head.next;
+                while(i > 0)
+                {
+                    go = go->next;
+                    i -= 1;
+                }
+                return go;
+            }
+            
+            u_int64_t total_size()
+            {
+                return size;
             }
 
             void insert_at_begin(subclass* data)

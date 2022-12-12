@@ -9,6 +9,15 @@ class TB_Vistor
         virtual void visit(TB& tb) = 0;
 };
 
+class RemoveTailVistor: TB_Vistor
+{
+    public:
+        void visit(TB& tb);
+        void start(Segment& seg);
+    private:
+        void remove_tail_of(TB& tb, uint which);
+};
+
 class TB_AddRels_Vistor: TB_Vistor
 {
     const std::vector<AOT_rel>* rels;

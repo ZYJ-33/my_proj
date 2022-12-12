@@ -30,23 +30,80 @@ TB::TB(FILE* f, AOT_TB* aot_tb, u_int32_t SegBegin):origin_aot_tb(aot_tb)
     fseek(f, save, SEEK_SET);
 }
 
+ListNode<LoongArchInsInfo>* TB::delete_ith_rel(u_int64_t i)
+{
+    if(rels_valid[i])
+    {
+        AOT_rel& rel = rels[i];
+        u_int64_t ith_insn = rel.tc_offset >> 2;
+        u_int64_t count = rel.rel_slots_num;
+        ListNode<LoongArchInsInfo>* insn = dis_insns.get(i);
+        while(count > 0)
+        {
+            insn = delete_ith_insn_alongwith_rel(insn, i);
+            count -= 1;
+        }
+        return insn;
+    }
+    else
+        return nullptr;
+}
+
+ListNode<LoongArchInsInfo>* TB::delete_ith_insn_alongwith_rel(ListNode<LoongArchInsInfo>* node, u_int64_t i)
+{
+    u_int64_t offset_of_ith_insn = i << 2;
+
+    u_int64_t j = 0;
+    for(auto& rel: rels)
+    {
+         if (rels_valid[j] && (rel.tc_offset <= offset_of_ith_insn &&  offset_of_ith_insn < rel.tc_offset + (rel.rel_slots_num<<2)))
+         {
+              rels_valid[j] = false;
+              break;
+         }
+         j += 1;
+    }
+
+    j = 0;
+    for(auto& rel: rels)
+    {
+        if(rels_valid[j] && offset_of_ith_insn < rel.tc_offset)
+                rel.tc_offset -= 4;
+        j += 1;
+    }
+
+    for(int i=0; i<2; i++)
+    {
+        if(origin_aot_tb->jmp_reset_offsets[i] != TB_JMP_RESET_OFFSET_INVALID)
+        {
+            if(origin_aot_tb->jmp_target_arg[i] > offset_of_ith_insn)
+                    origin_aot_tb->jmp_target_arg[i] -= 4;
+        }
+    }
+    return dis_insns.remove(node);
+}
+
 ListNode<LoongArchInsInfo>* TB::delete_ith_insn(ListNode<LoongArchInsInfo>* node, u_int64_t i)
 {
     u_int64_t offset_of_ith_insn = i << 2;
+
+    u_int64_t j = 0;
     for(auto& rel: rels)
     {
-        if(offset_of_ith_insn < rel.tc_offset)
-                rel.tc_offset -= 4;
-        else  // rel.tc_offset <= offset_of_ith_insn
-        {
-            if (rel.tc_offset <= offset_of_ith_insn &&  offset_of_ith_insn <= rel.tc_offset + (rel.rel_slots_num<<2))
-            {
+         if (rels_valid[j] && (rel.tc_offset <= offset_of_ith_insn &&  offset_of_ith_insn < rel.tc_offset + (rel.rel_slots_num<<2)))
+         {
                 std::cerr << " try to delete insn in rel entry: " << i <<"th insn"<< " ignore for now "<<std::endl;
-                return node->next;
-            }
-            else
-                    continue;
-        }
+                return node;
+         }
+         j += 1;
+    }
+
+    j = 0;
+    for(auto& rel: rels)
+    {
+        if(rels_valid[j] && (offset_of_ith_insn < rel.tc_offset))
+                rel.tc_offset -= 4;
+        j += 1;
     }
     for(int i=0; i<2; i++)
     {
@@ -56,7 +113,6 @@ ListNode<LoongArchInsInfo>* TB::delete_ith_insn(ListNode<LoongArchInsInfo>* node
                     origin_aot_tb->jmp_target_arg[i] -= 4;
         }
     }
-
     return dis_insns.remove(node);
 }
 
@@ -176,6 +232,7 @@ AOT_File::AOT_File(FILE* f)
     DisassmblePrinterVistor p;
     EntryBlockVistor e;
     testVistor t;
+    RemoveTailVistor r;
     TB_AddRels_Vistor add_rels_vistor;
 
     fseek(f, 0, SEEK_SET);
@@ -205,7 +262,7 @@ AOT_File::AOT_File(FILE* f)
         seg_ptr->settle_all_tb(rels);
         add_rels_vistor.start(*seg_ptr, &rels);
         v.start(*seg_ptr);
-        t.start(*seg_ptr);
+        r.start(*seg_ptr);
         //e.start(*seg_ptr);
         p.start(*seg_ptr, 0x4017f0, &rels);
         // p.start(*seg_ptr);
